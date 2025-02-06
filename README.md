@@ -36,7 +36,9 @@ This project is a Python-based chatbot that interacts with **Gemini AI** to gene
 1. Loads the API key from `api_key.txt`.  
 2. Captures text from the GUI using **PyAutoGUI** and **Pyperclip**.  
 3. Sends the extracted text to **Gemini AI** for generating responses.  
-4. Displays the AI-generated response in the console.  
+4. Displays the AI-generated response in the console. 
+
+<img title="a title" alt="Output image" src="output.png">
 
 ## 🔒 Security Considerations  
 - **DO NOT hardcode your API key in the script.** Use `api_key.txt` for secure handling.  
